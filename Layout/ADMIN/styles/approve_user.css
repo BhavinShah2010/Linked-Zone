@@ -1,0 +1,98 @@
+#main_container
+{
+	width:100%;
+	min-height:30em;
+	border:thin #ccc solid;
+	margin-top:1%;
+	border-bottom:none;
+	overflow:hidden;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+#main_container hr
+{
+	padding:0;
+	margin:0;
+	height:1px;
+	width:100%;
+	top:2%;
+}
+
+
+#title
+{
+	width:100%;
+	height:3em;
+	border:thin #ccc solid;
+}
+
+
+#title span
+{
+	display:table;
+	margin:0 auto;
+	color:#82ab00;
+	font-size:2em;
+	text-align:center;
+}
+
+
+
+#approve_box 
+{
+	width:100%;
+	height:3em;
+	//border:thin black solid;
+	//margin-left:5%;
+	border:thin #ccc solid;
+	border-top:none;
+}
+
+#approve_btn_box
+{
+	width:50%;
+	height:3em;
+	float:right;
+	border:none;
+
+}
+
+
+#approve_btn_box .approve_btn
+{
+	background:#82ab00;
+	width:10em;
+	height:3em;
+	border:none;
+	color:#FFFFFF;
+	font-size:0.8em;
+	padding:1%;
+}
+
+
+
+#approve_btn_box .disapprove_btn
+{
+	background:#82ab00;
+	width:10em;
+	height:3em;
+	border:none;
+	color:#FFFFFF;
+	font-size:0.8em;
+	padding:1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

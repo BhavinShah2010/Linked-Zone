@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+#header
+ {
+	 position:fixed;
+	 left:17%;
+	 width:75%;
+	 height:5%;
+	 min-height:40px;
+	 z-index:1001;
+//	 overflow:hidden;
+	 margin-bottom:1%;	
+//	 background:white; 
+//	 border:thin solid #CCC;
+ }
+#header .pHolderCont
+ {
+	display:inline-table;	 
+	float:left;
+	background: white;
+	overflow: hidden;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;	 
+ }
+.pHolderCont .holderName 
+ {
+	display:table;
+	float:left;
+//	border:thin solid #CCC;	
+ }
+
+.holderName span
+ {
+	color: #82ba00;//95ab08;
+	display:inline-block;
+	white-space:no-wrap;
+	padding-left:8px;
+	padding-right: 8px;
+	margin-top:7px;
+	vertical-align: top;	
+	font-weight: 800;
+	font-size: 18px;
+//	border:thin solid black;	
+ }
+.pHolderCont .holderPic
+ {
+	 height:35px;
+	 width:35px;
+	 float:left;
+	 background:url(../images/WP_000302_mini.jpg);
+	 background-size:100% 100%;	 
+	// border:thin solid red;
+ }
+#header .btnPanel
+ {
+	display: inline-table;
+	position: relative;
+	float: right;
+	background-color: white;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-bottom-color: #BFBFBF;
+	border-left-color: #CCC;
+ }
+#header .btnPanel .hbtn 
+ {
+	 width:31px;
+	 height:31px;
+	 float:right;
+	 margin:5px;
+	 background-size:content;
+	 background-color:white;
+//	 border:thin solid #CCC;
+ }
+.hbtn #notification_text
+{
+	display: table;
+	padding: 1px;
+	color: white;
+	background-color: #EA0000;
+	border-radius:100%;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%;
+	-ms-border-radius:100%;	
+	-o-border-radius:100%;
+	border:thin solid #CCC;
+
+}
+#header .btnPanel .hbtn #pulldown
+ {
+	 right:-0.5%;
+	 top:100%;
+	 font-size:120%;
+	 background:white;
+	 position:absolute;
+	 border:thin solid #ccc;
+	 display:none;
+ }
+#pulldown a
+{
+	width:100%;
+}
+#pulldown a .p_btn 
+{
+	color: #82ba00;//95ab08;
+	float:right;
+	 
+	white-space:nowrap;
+	padding-left:8px;
+	padding-right: 8px;
+	margin-top:3px;
+	margin-bottom:3px;
+	font-weight: 800;
+	font-size: 18px;
+	text-align:right;
+	text-decoration:none;
+//	border:thin solid black;	
+	
+}
+#pulldown a .p_btn:hover
+{
+	text-decoration:underline;
+}
+#pulldown hr
+{
+	width:100%;
+	padding:0;
+	margin:0;
+	margin-top:3%;
+	border:thin solid #ccc;
+}
+
+#header .btnPanel .hbtn:hover
+{
+	cursor:pointer;
+}
+
+

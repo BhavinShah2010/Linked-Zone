@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#profile_main_container
+{
+	 width:64%;
+	 height:25%;
+	 margin:0 auto;
+	 margin-top:1%;
+	//background:white;
+	border:thin solid #F00;
+}
+
+#profile_pic_container
+{
+	width:25%;
+	height:90%;
+	//background:white;
+	//border:thin #ccc solid;
+	//float:left;
+	margin-left:1%;
+	margin-top:1%;
+	position:relative;
+}
+#profile_pic
+{
+	width:90%;
+	height:75%;
+	border:thin #CCC solid;
+
+}
+#profile_pic img
+{
+	width:100%;
+	height:100%;
+}
+
+/*#profile_pic:hover
+{
+	background:url(../images/plus.png);
+	opacity:0;
+	background-size:100% 100%;
+}*/
+#profile_pic_change 
+{
+	width:90%;
+	background-color:#93ab08;
+	border:thin #ccc solid;
+	margin-top:4%;
+	padding:5px 0px;
+	font-size:12px;
+	font-weight:600;
+	
+}
+#profile_pic_change span
+{
+	color: #252B02;
+	font-size: 12px;
+	display: table;
+	margin: 0 auto;
+}
+
+#about_us_container
+{
+	width:70%;
+	height:65%;
+	border:thin #ccc solid;
+	float:right;
+	//margin-top:1%;
+	margin-right:1%;
+	background:#FFF;
+}
+.basic_information
+{
+	width:90%;
+	height:15%;
+	//border:thin solid green;
+	padding:3px;
+	margin-left:1%;
+	//text-align:center;
+	font-weight:600;
+	margin-top:1%;
+	font-size:12px;
+}
+
+#container
+{
+	width:70%;
+	height:15%;
+	float:right;
+	//border: thin black solid;
+	margin-right:1%;
+	margin-top:1.5%;
+	//background:#fff;
+}
+
+.btns
+{
+	float:left;
+	border:thin #ccc solid;
+	background:#93ab08;
+	font-size:14px;
+	font-weight:600;
+	padding:5px;
+	margin-left:5px;
+}
+
+.btns span
+{
+	margin:0 auto;
+	color: #252B02;
+	display:table;
+}
+
+

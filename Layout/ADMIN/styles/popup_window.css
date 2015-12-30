@@ -1,0 +1,304 @@
+#popup_window
+{
+	width:50%;
+	margin:0px auto;
+	min-height:17.5em;
+	border:thin #ccc solid;
+	display:none;
+	position:absolute;
+	z-index:20;
+	left:25%;
+	top:20%;
+	opacity:0.0;
+	background:#eaeaea;
+}
+
+
+#popup_window hr
+{
+	padding:0;
+	margin:0;
+	height:1px;
+}
+
+#popup_header
+{
+	width:100%;
+	min-height:3em;
+	//border:thin black solid;
+	background:#eaeaea;
+}
+
+#popup_header span
+{
+	display:table;
+	font-size:1.3em;
+	padding:0.3%;
+	font-weight:600;
+	color:#82ab00;
+	//margin-left:5px;
+}
+
+
+#close_popup
+{
+	width:25px;
+	height:25px;
+	//border:thin black solid;
+	background:url(../images/Close.png);
+	float:right;
+	margin-right:5px;
+	margin-top:3px;
+	cursor:pointer;
+}
+
+
+#to_msg_cnt
+{
+	min-height:2.6em;
+	margin-top:0.5%;
+	//border:thin green solid;
+}
+
+#det_box
+{
+	width:15%;
+	min-height:2.5em;
+	//border:thin black solid;
+	float:left;
+}
+
+
+#det_box span
+{
+	display:table;
+	font-size:1em;
+	font-weight:600;
+	color:#82ab00;
+	//text-align:right;
+	float:right;
+}
+
+#input_box
+{
+	width:83%;
+	min-height:1em;
+	//border:thin red solid;
+	float:right;
+	margin-right:0.5%;	
+}
+input[type="text"]
+{
+	width:100%;
+	height:100%;
+	outline:none;
+	font-size:1em;
+	min-height:2em;
+	border: thin solid #ccc;
+	font-family:"segoe ui";
+	
+}
+
+select+div
+{	
+	min-width : 100% !important;
+	min-height: 0.7em;
+	outline:none !important;
+	font-size:0.8em !important;
+}
+select:focus
+
+{
+	outline:none; 
+}
+
+#msg_box 
+{
+	min-height:7em;
+	//border:thin black solid;
+	margin-top:1%;
+}
+
+#msg_det_box
+{
+	width:15%;
+	min-height:2.5em;
+	//border:thin black solid;
+	float:left;
+}
+#msg_det_box span
+{
+	display:table;
+	font-size:1em;
+	font-weight:600;
+	color:#82ab00;
+	//text-align:right;
+	float:right;
+}
+
+
+#msg_textarea_box
+{
+	width:83%;
+	min-height:6.5em;
+	//border:thin red solid;
+	float:right;
+}
+
+#msg_textarea_box textarea
+{
+	resize:none;
+	outline:none;
+	width:99.3%;
+	float:right;
+	min-height:6.5em;
+	border: thin solid #ccc;
+	margin-right:0.1%;
+	font-family:"segoe ui";
+	font-size:1em;
+}
+
+#attach_box
+{
+	width:80%;
+	//border:thin black solid;
+	min-height:1.9em;
+	margin-left:12%;
+}
+
+
+.icon_box
+{
+	width:20px;
+	height:20px;
+	//border:thin black solid;
+	float:left;
+	margin-left:8%;
+	margin-top:0.5%;
+	cursor:pointer;
+}
+
+
+
+#progress_bar_box
+{
+	width:80%;
+	height:1.5em;
+	border:thin black solid;
+	float:right;
+}
+
+
+#btn_box
+{
+	min-height:2.5em;
+	//border:thin black solid;
+}
+#right_btn_box
+{
+	width:40%;
+	min-height:2.5em;
+	float:right;
+	//border:thin green solid;
+	margin-right:2%;
+}
+
+input[type='button']
+{
+	//width:30%;
+	//background:#82ab00;
+	cursor:pointer;
+	font-size:0.8em;
+	text-align:center;
+	font-weight:bolder;
+	outline:none;
+	border:thin black solid;
+	margin-left:2%;
+	float:right;
+	padding:3%;
+}
+
+
+#after_mesg_sent_box
+{
+	width:25%;
+	margin:0px auto;
+	margin-left:15%;
+	min-height:5em;
+	border:thin #ccc solid;
+	display:none;
+	position:absolute;
+	z-index:25;
+	left:25%;
+	top:30%;
+	background:#eaeaea;
+	opacity:1;
+	border-radius: 10px ;
+}
+
+
+#after_mesg_sent_box hr
+{
+	padding:0;
+	margin:0;
+	height:1px;
+}
+#success_box
+{
+	width:100%;
+	height:2em;
+	//border:thin black solid;
+	background:#eaeaea;
+	border-radius: 10px;
+}
+
+
+#success_box span
+{
+	display:table;
+	font-size:1.1em;
+	padding:0.3%;
+	font-weight:900;
+	color:#000;
+
+	//margin-left:5px;
+}
+
+
+#msg_info_box
+{
+	width:100%;
+	min-height:3em;
+	//border:thin black solid;
+	background:#fff;
+	border-radius: 0px 0px 10px 10px ;
+}
+
+#msg_info_box span
+{
+	display:table;
+	font-size:1em;
+	padding:2%;
+	font-weight:900;
+	color:#82ab00;
+	margin-left:2%;
+
+	//margin-left:5px;
+
+}
+
+
+
+#main_box
+{
+	 height:100%;
+	 width:100%; 
+	 background-color:#000; 
+	-moz-opacity: 0.4; 
+	-webkit-opacity: 0.4;
+	 position:fixed;
+	 z-index:10; 
+	 display:none;
+}
+
+

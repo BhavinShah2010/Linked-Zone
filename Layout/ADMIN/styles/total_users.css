@@ -1,0 +1,69 @@
+#title
+{
+	width:100%;
+	height:3em;
+	border:thin #ccc solid;
+}
+
+
+#title span
+{
+	display:table;
+	margin:0 auto;
+	color:#82ab00;
+	font-size:2em;
+	text-align:center;
+}
+
+
+#main_container
+{
+	width:99%;
+	min-height:5em;
+	height:auto;
+	margin-left:1%;
+	//margin:0 auto;
+	border:thin #ccc solid;
+	margin-top:1%;
+	border-bottom:none;
+}
+.users_div
+{
+	width:30%;
+	height:5em;
+	border:thin #ccc solid;
+	float:left;
+	margin:1%;
+}
+.users_div .name_box
+{
+	width:65%;
+	height:2em;
+	//border:thin black solid;
+	float:left;
+	margin-top:1em;
+	margin-left:0.5em;
+}
+
+.users_div .name_box span
+{
+	font-size:1em;
+	font-weight:700;
+	padding:2%;
+	color:#82ab00;
+}
+
+.users_pic
+{
+	width:4em;
+	height:100%;
+	//border:thin #ccc solid;
+	float:left;
+}
+
+
+
+
+
+
+

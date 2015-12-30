@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#header
+{
+	width:100%;
+	font-weight:500;
+	background-color:#82BA00;
+}
+
+#header h1.logo 
+{
+	font-weight:500;
+	margin-left:1%;
+	color:white;
+	display:inline;	
+	font-size:2em;	
+//	border:thin solid red;
+}
+#header #c_bar
+{
+	height:100%;
+	widows:100%;
+	float:right;
+	color:white;
+	margin:0.4em;
+	margin-right:1em;
+
+	font-size:1.125em;
+	//border:thin solid red;
+}
+#c_bar:hover
+ {
+	cursor:pointer;
+ }
+#c_bar .p_ow_name
+{
+	display:inline;
+	float:left;
+//	border:thin solid white;
+}
+.p_ow_name a 
+{
+	text-decoration:none;
+	color:white;
+	//border:thin black solid;
+}
+.p_ow_name:before
+{
+	content:'|';
+	float:left;
+	margin-right:0.5em;
+	color:white;
+	height:15px;
+	width:1px;
+}
+
+#c_bar .p_ow_pic
+{
+	width:1.5em;
+	height:1.5em;
+	float:left;
+	margin-left:0.625em;
+	border-radius:100px;
+	//border:thin solid blue;
+}
+
+.p_ow_pic img
+{
+	width:100%;
+	height:100%;
+
+}
+
+#c_bar #right_slider_btn
+{
+	width:1.5em;
+	height:1.5em;
+	float:left;
+	background:url(../images/btn.jpg);
+	background-size:cover;
+	margin-top:0.15625em;
+	margin-right:0.3125em; 	//8px;
+//	border:thin solid blue;
+}
+
+#c_bar #noti_btn
+{
+	width:1.5em;
+	height:1.5em;
+	float:left;
+	background:url(../images/noti.jpg);
+	background-size:cover;
+	margin-top:0.15625em;
+//	margin-right:0.3125em; 	//8px;
+//	border:thin solid blue;
+}
+
+
+
+#c_bar .p_ow_name #a_pull_down
+{
+	min-height:2em;
+	background:#fff;
+	border:thin solid #ccc;
+	display:none;
+	margin-top:0.9%;
+	position:absolute;
+	right:45px;
+	z-index:1000;
+
+}
+
+
+
+#a_pull_down .a_p_btn 
+{
+	color: #82ab00; 
+	float:right;
+	white-space:nowrap;
+	padding-left:8px;
+	padding-right: 8px;
+	margin-top:3px;
+	margin-bottom:3px;
+	font-weight: 800;
+	font-size: 100%;
+	text-align:right;
+	text-decoration:none;
+	//border:thin solid black;	
+	
+}
+#a_pull_down .a_p_btn:hover
+{
+	text-decoration:underline;
+}
+#a_pull_down hr
+{
+	width:100%;
+	padding:0;
+	margin:0;
+	margin-top:3%;
+	border:thin solid #ccc;
+}

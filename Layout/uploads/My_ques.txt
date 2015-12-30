@@ -1,0 +1,20 @@
+why join are used in database
+how logarithm works
+what is b tree in database
+what is index in phpmyadmin
+what is myisam in mysql
+what is innodb table in mysql
+how to give foreign key in phpmyadmin
+
+
+check max number stored in 1 lenght of integer in mysql..
+
+instructions 
+
+use small int as a datatype for integer.
+Add record when new user registered in notification table.
+
+
+11-1-13 at 1:54 am
+
+http://stackoverflow.com/questions/1623914/what-is-thread-safe-or-non-thread-safe-in-php

@@ -1,0 +1,703 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+
+
+/* Mobile Layout: 480px and below. */
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+body , html
+{
+	width:100%;
+	height:auto;
+	margin:0;
+	width:100%;
+	height:768px;
+	padding:0;
+	font-size:16px;
+	font-family:"segoe ui";
+}
+
+#container
+{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:relative;
+//	border:thin solid black;
+}
+
+#container #left_slider
+{
+	width:15%;
+	float:left;
+	min-height:100%;
+	position:absolute;
+	overflow:hidden;	
+	background-color:#F9F9F9;
+//	border:thin solid red;
+}
+
+#container #main
+{
+	float:left;
+	width:80%;
+	position:absolute;
+	left:19%;	
+	height:100%;	
+	//min-height:100px;
+	overflow-y:scroll;
+//	border:thin solid green;
+}
+#container #right_slider
+{
+	width:1%;
+	right:0%;
+	float:right;
+	min-height:100%;
+	position:absolute;
+//	background-color:#F3F3F3;
+//	border:thin solid red;
+}
+#right_slider .button
+{
+	width: 100%;
+	font-weight: 500;
+	padding: 0.125em;
+	font-size: 1.3em;
+	background-color: #F9F9F9;
+	margin-bottom: 0.125em;
+	cursor:pointer;
+}
+
+
+@media only screen and (min-width: 481px) {
+#container #left_slider
+{
+	width:15%;
+	float:left;
+	min-height:100%;
+	position:absolute;
+	overflow:hidden;	
+	background-color: #F9F9F9;
+//	border:thin solid red;
+}
+
+#container #main
+{
+	float:left;
+	width:80%;	/65
+	position:absolute;
+	left:19%;			
+//	margin-left:15%;
+	height:100%;
+//	min-height:100px;
+	overflow-y:scroll;
+//	border:thin solid green;
+}
+#container #right_slider
+{
+	width:1%;
+	right:0%;
+	float:right;
+	min-height:100%;
+	position:absolute;
+//	background-color:#F3F3F3;
+//	border:thin solid red;
+}
+#right_slider .button
+{
+	width: 100%;
+	font-weight: 500;
+	padding: 0.125em;
+	font-size: 1.3em;
+	background-color: #F9F9F9;
+	margin-bottom: 0.125em;
+	cursor:pointer;
+}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+#container #left_slider
+{
+	width:18%;
+	float:left;
+	min-height:100%;
+	position:absolute;
+	background-color: #F9F9F9;
+	overflow:hidden;
+//	border:thin solid red;
+}
+
+#container #main
+{
+	float:left;
+	width:80%;	/65
+	position:absolute;
+	left:18%;		
+	height:100%;
+//	margin-left:15%;
+	padding:1%;
+//	min-height:100px;
+	overflow-y:scroll;
+//    border:thin solid green;
+}
+#container #right_slider
+{
+	width:0%;	//19
+	right:0%;
+	float:right;
+	min-height:100%;
+	position:absolute;
+//	background-color:#F3F3F3;
+//	border:thin solid red;
+}
+
+#right_slider .button
+{
+	width: 100%;
+	font-weight: 500;
+	padding: 0.125em;
+	font-size: 1.3em;
+	background-color: #F9F9F9;
+	margin-bottom: 0.125em;
+	cursor:pointer;
+}
+}
+#main .cnt
+{
+	width:50%;
+	min-height:15em;
+	//margin:0 auto;
+	margin-left:2em;
+	margin-top:2em;	
+	padding:0.5em;
+	border:thin solid #ccc;
+	//z-index:1;
+	position:absolute;
+}
+/*#main .cnt img
+{
+	width:100%;
+	height:15em;
+
+}*/
+
+/*#calander_box
+{
+	width:10em;
+	min-height:10em;
+	border:thin black solid;
+	margin-top:2em;
+	
+}*/
+#left_slider a .button
+{
+	text-decoration: none;
+	color: #8C8C8C;
+	//border:thin black solid;
+	margin-top:3px;
+}
+
+#left_slider .button
+{
+	width: 100%;
+	float:left;
+	padding: 0.3125em 0;
+
+}
+
+#left_slider .button:hover
+{
+	background-color: #E8E8E8;
+	cursor:pointer;
+}
+
+#left_slider .button a
+{
+	text-decoration:none;
+	color:#8C8C8C;
+}
+
+
+#left_slider .button a:visited
+{
+	text-decoration:none;
+	color:#8C8C8C;
+}
+
+
+#left_slider .button .icon
+{
+	width:1.875em;
+	height:1.875em;
+	float:left;
+	margin-left:0.4em;
+	//background-color:#82BA00;
+	background-size:cover;
+	//border:thin solid red;
+}
+
+#left_slider .button .icon img
+{
+	border:none;
+}
+
+#left_slider .button .text
+{
+	display:inline-table;
+	margin:0.2em 0.5em;
+	font-size:1.1em;
+//	font-weight:100;
+	//border:thin solid red;
+
+}
+
+
+.dashboard_dropdown_box
+{
+	display:none;
+	//border:thin black solid;
+	//background:#000;
+	
+}
+
+ .dashboard_dropdown_box .button
+{
+	width:100%;
+	//border:thin solid red;
+	overflow:hidden;
+	//margin-top:1px;
+}
+.dashboard_dropdown_box .btn
+{
+	width:100%;
+	height:35px;
+	background-color:transparent;
+	//border:thin blue solid;
+	margin-top:5px;
+}
+.dashboard_dropdown_box hr
+{
+	padding:0;
+	margin:0;
+	height:1px;
+	outline:none;
+	border:none;
+	background:#999;
+}
+
+.btn:hover
+{
+	border:none;
+	background-color: #ccc;
+}
+
+#image_icon
+{
+	margin-top:0px;
+	border:thin black solid
+}
+
+#dash_arrow_box
+{
+	width:20px;
+	height:20px;
+	//border:thin black solid;
+	background:url(../images/Arrow_Down.png);
+	float:right;
+	margin-right:3px;
+	margin-top:6px;
+}
+
+#manage_user_arrow_box
+{
+	width:20px;
+	height:20px;
+	//border:thin black solid;
+	background:url(../images/Arrow_Down.png);
+	float:right;
+	margin-right:3px;
+	margin-top:5px;
+}
+
+
+
+.manage_user_dropdown_box
+{
+	display:none;
+	
+}
+
+ .manage_user_dropdown_box .button
+{
+	width:100%;
+	//border:thin solid red;
+	overflow:hidden;
+	//margin-top:1px;
+}
+.manage_user_dropdown_box .btn
+{
+	width:100%;
+	height:35px;
+	background-color:transparent;
+	//border:thin blue solid;
+	margin-top:5px;
+}
+
+.manage_user_dropdown_box hr
+{
+	padding:0;
+	margin:0;
+	height:1px;
+	outline:none;
+	border:none;
+	background:#999;
+}
+
+
+
+
+
+
+
+
+
+.manage_report_dropdown_box
+{
+	display:none;
+	
+}
+
+ .manage_report_dropdown_box .button
+{
+	width:100%;
+	//border:thin solid red;
+	overflow:hidden;
+	//margin-top:1px;
+}
+.manage_report_dropdown_box .btn
+{
+	width:100%;
+	height:35px;
+	background-color:transparent;
+	//border:thin blue solid;
+	margin-top:5px;
+}
+
+.manage_report_dropdown_box hr
+{
+	padding:0;
+	margin:0;
+	height:1px;
+	outline:none;
+	border:none;
+	background:#999;
+}
+
+
+
+
+
+
+#manage_report_arrow_box
+{
+	width:20px;
+	height:20px;
+	//border:thin black solid;
+	background:url(../images/Arrow_Down.png);
+	float:right;
+	margin-right:3px;
+	margin-top:5px;
+}
+
+
+
+.btn:hover
+{
+	border:none;
+	background-color: #ccc;
+}
+
+
+
+.back_btn_box
+{
+	width:30px;
+	//border:thin black solid;
+	float:right;
+	height:30px;
+	display:none;
+	//margin-top:2%;
+	margin-right:3%;
+	font-size:0.8em;
+	text-align:center;
+	background:url(../images/Back_Btn.png);
+}
+
+
+
+
+#notify_box
+{
+	//width:100%;
+	min-height:25em;
+	height:auto;
+	//border:thin black solid;
+	display:none;
+	margin-right:100%;
+	//overflow:scroll;
+	//overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+.get_notification_box
+{
+	width:99%;
+	height:3em;
+	border:thin #ccc solid;
+	//float:left;
+	margin-top:1%;
+	cursor:pointer;
+}
+
+.get_notification_box:hover
+{
+	background:#eaeaea;
+}
+
+
+.noti_image_box
+{
+	width:40px;
+	height:40px;
+	float:left;
+	//border:thin black solid;
+	margin-top:1%;
+	margin-left:1%;
+}
+
+.noti_content_box
+{
+	width:75%;
+	height:40px;
+	//border:thin #ccc solid;
+	float:right;
+	margin-top:1%;
+	margin-right:1%;
+}
+
+.noti_image_box img
+{
+	width:55px;
+	height:45px;
+}
+
+
+.noti_content_box span
+{
+	font-size:0.95em;
+	color:#333;
+	font-weight:700;
+}
+
+
+
+#right_sli_mesg_box
+{
+	//width:100%;
+	min-height:28.8em;
+	height:auto;
+	//border:thin black solid;
+	display:none;
+	margin-right:100%;
+}
+
+.get_msgs_box
+{
+	width:99%;
+	height:3em;
+	border:thin black solid;
+	float:left;
+	margin-top:1px;
+	cursor:pointer;
+}
+
+
+
+
+a:link
+{
+	text-decoration:none;
+}
+
+a:active
+{
+	text-decoration:none;
+}
+
+a:visited
+{
+	text-decoration:none;
+}
+.count-con
+{
+    background-color: #82BA00;
+    color: #FFFFFF;
+    margin: 250px auto 0;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+	}
+	
+.post_dropdown_box
+{
+	display:none;
+	
+}
+
+
+
+
+.post_dropdown_box .button
+{
+	width:100%;
+	//border:thin solid red;
+	overflow:hidden;
+	//margin-top:1px;
+}
+.post_dropdown_box .btn
+{
+	width:100%;
+	height:35px;
+	background-color:transparent;
+	//border:thin blue solid;
+	margin-top:5px;
+}
+
+
+.post_dropdown_box .btn:hover
+{
+	border:none;
+	background:#ccc;	
+}
+
+.post_dropdown_box hr
+{
+	padding:0;
+	margin:0;
+	height:1px;
+	outline:none;
+	border:none;
+	background:#999;
+}
+
+
+
+
+
+
+#post_arrow_box
+{
+	width:20px;
+	height:20px;
+	//border:thin black solid;
+	background:url(../images/Arrow_Down.png);
+	float:right;
+	margin-right:3px;
+	margin-top:5px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+@charset "utf-8";
+/* CSS Document */
+
+#report_container
+ {
+	 width:100%;
+	 min-height:35%;
+	 background:white;
+	 height:auto;
+	 border:thin #ccc solid;
+ }
+ 
+ 
+ 
+ #delete_post_box 
+{
+	width:100%;
+	height:3em;
+	
+	//margin-left:5%;
+	border:thin #ccc solid;
+	border-top:none;
+}
+
+#delete_post_btn_box
+{
+	width:50%;
+	height:3em;
+	float:right;
+	border:none;
+	margin-top:0.5%;
+	margin-right:0.5%;
+
+}
+
+
+#delete_post_btn_box .delete_btn
+{
+	background:#82ab00;
+	width:10em;
+	height:3em;
+	border:none;
+	color:#FFFFFF;
+	font-size:0.8em;
+	padding:1%;
+//	border:thin black solid;
+	
+}
+
+ 
+ 
+ 
+
+
+#title
+{
+	width:100%;
+	height:3em;
+	border:thin #ccc solid;
+	border-bottom:none;
+}
+
+
+#title span
+{
+	display:table;
+	margin:0 auto;
+	color:#82ab00;
+	font-size:2em;
+	text-align:center;
+}

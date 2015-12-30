@@ -1,0 +1,289 @@
+body,html
+{
+	height: 100%;
+	font-family: 'Segoe UI',Tahoma,Helvetica,Sans-Serif;
+	background:#eaeaea;
+	//background:url(../images/background_stripes.gif);
+	
+}
+
+#Privacy_tag_box
+{
+	width:65%;
+	min-height:5em;
+	//border:thin black solid;
+	background:#fff;
+	margin-top:20px;
+	margin :0 auto;
+	clear:both;
+	float:left;
+	margin-left:17%;
+	margin-top:5%;	 
+}
+#Privacy_tag_box span
+{
+	display:table;
+	font-size:1.5em;
+	padding:0.3%;
+	font-weight:700;
+	color:#82ab00;
+	//margin-left:1.5%;
+	margin-top:1%;
+	
+}
+
+
+#main_cnt
+{
+	 clear:both;
+	 float:left;	
+	 width:65%;
+	 margin:0 auto;
+	 margin-top:0.5%;	 
+	 margin-left:17%;
+   	 background:#fff;
+	 min-height:15em;
+	 border:thin solid #ccc;	
+}
+
+#main_cnt #privacy_edit_box
+{
+	width:100%;
+	min-height:10em;
+	//border:thin black solid;
+	float:left;
+	//margin-left:13%;
+	//margin-top:1%;
+}
+
+#privacy_edit_box span
+{
+	display:table;
+	font-size:1.5em;
+	padding:0.3%;
+	font-weight:700;
+	color:#82ab00;
+	margin-left:1.5%;
+	margin-top:1%;
+}
+
+
+/*#on_off_privacy_btn_box
+{
+	min-width:10%;
+	height:2em;
+	border:thin solid #666;
+	margin-top:5%;
+	float:left;
+	margin-left:5px;
+}
+
+.on_off_privacy_btn_box
+{
+	//width:88%;
+	height:80%;
+	float:left;
+	margin-left:10px;
+	border:none;
+	box-shadow:0px 0px 5px #eaeaea;
+}
+
+/*===On_Off Button For Privacy
+
+.onoffswitch_privacy {
+    position: relative; width: 81px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+    .onoffswitch-checkbox_privacy {
+    display: none;
+    }
+    .onoffswitch-label_privacy {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 0px solid #999999; border-radius: 0px;
+    }
+    .onoffswitch-inner_privacy {
+    width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+    }
+    .onoffswitch-inner_privacy > div {
+    float: left; position: relative; width: 50%; height: 26px; padding: 0; line-height: 26px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    }
+    .onoffswitch-inner_privacy .onoffswitch-active_privacy {
+    padding-left: 10px;
+    background-color: #EBEBEB; color: #FFFFFF;
+    }
+    .onoffswitch-inner_privacy .onoffswitch-inactive_privacy {
+    padding-right: 10px;
+    background-color: #EBEBEB; color: #;
+    text-align: right;
+    }
+    .onoffswitch-switch_privacy {
+    width: 40px; margin: 0px; text-align: center;
+    border: 0px solid #999999;border-radius: 0px;
+    position: absolute; top: 0; bottom: 0;
+    }
+    .onoffswitch-active_privacy .onoffswitch-switch_privacy {
+    background: #999797; left: 0;
+    }
+    .onoffswitch-inactive_privacy .onoffswitch-switch_privacy {
+    background: #82AB00; right: 0;
+    }
+    .onoffswitch-active_privacy .onoffswitch-switch_privacy:before {
+    content: " "; position: absolute; top: 0; left: 40px;
+    border-style: solid; border-color: #999797 transparent transparent #999797; border-width: 13px 8px;
+    }
+    .onoffswitch-inactive_privacy .onoffswitch-switch_privacy:before {
+    content: " "; position: absolute; top: 0; right: 40px;
+    border-style: solid; border-color: transparent #82AB00 #82AB00 transparent; border-width: 13px 8px;
+    }
+    .onoffswitch-checkbox_privacy:checked + .onoffswitch-label_privacy .onoffswitch-inner_privacy {
+    margin-left: 0;
+    }*/
+	
+	
+	
+	
+#privacy_det_box 
+{
+	width:80%;
+	min-height:5em;
+	//border:thin black solid;
+	margin-left:15%;
+	margin-top:5%;
+}
+
+#privacy_det_box span
+{
+	
+	display:table;
+	font-size:1.5em;
+	//padding:0.5%;
+	font-weight:600;
+	color:#82ab00;
+	//margin-left:5px;
+	word-break:break-all;
+}
+select 
+{
+	border:thin black solid;
+	//background: rgba(0,0,0,0.3);
+	background:#eaeaea;
+	font-size: 0.9em;
+   line-height: 1;
+   border-radius: 5px;
+   min-height:1.5em;
+   outline:none;
+}
+
+
+#main_cnt #privacy_ena_dis_box
+{
+	width:100%;
+	min-height:7em;
+	//border:thin black solid;
+	float:left;
+	//margin-left:13%;
+	//margin-top:1%;
+}
+
+#privacy_ena_dis_det_box 
+{
+	width:80%;
+	min-height:5em;
+	//border:thin black solid;
+	margin-left:15%;
+	margin-top:1%;
+}
+
+#privacy_ena_dis_det_box span
+{
+	
+	display:table;
+	font-size:1.2em;
+	padding:1.4%;
+	font-weight:600;
+	color:#666;
+	//margin-left:5px;
+}
+
+
+
+
+
+#on_off_ena_dis_btn_profile_box
+{
+	min-width:10%;
+	height:2em;
+	//border:thin solid #666;
+	margin-top:3%;
+	float:left;
+	margin-left:5px;
+}
+
+.on_off_ena_dis_btn_profile_box
+{
+	//width:88%;
+	height:80%;
+	float:left;
+	margin-left:10px;
+	border:none;
+	box-shadow:0px 0px 5px #eaeaea;
+}
+
+/*On_Off_Button For Enable_Disable */
+
+.onoffswitch_ena_dis {
+    position: relative; width: 81px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+    .onoffswitch-checkbox_ena_dis {
+    display: none;
+    }
+    .onoffswitch-label_ena_dis {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 0px solid #999999; border-radius: 0px;
+    }
+    .onoffswitch-inner_ena_dis {
+    width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+    }
+    .onoffswitch-inner_ena_dis > div {
+    float: left; position: relative; width: 50%; height: 26px; padding: 0; line-height: 26px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    }
+    .onoffswitch-inner_ena_dis .onoffswitch-active_ena_dis {
+    padding-left: 10px;
+    background-color: #EBEBEB; color: #FFFFFF;
+    }
+    .onoffswitch-inner_ena_dis .onoffswitch-inactive_ena_dis {
+    padding-right: 10px;
+    background-color: #EBEBEB; color: #;
+    text-align: right;
+    }
+    .onoffswitch-switch_ena_dis {
+    width: 40px; margin: 0px; text-align: center;
+    border: 0px solid #999999;border-radius: 0px;
+    position: absolute; top: 0; bottom: 0;
+    }
+    .onoffswitch-active_ena_dis .onoffswitch-switch_ena_dis {
+    background: #999797; left: 0;
+    }
+    .onoffswitch-inactive_ena_dis .onoffswitch-switch_ena_dis {
+    background: #82AB00; right: 0;
+    }
+    .onoffswitch-active_ena_dis .onoffswitch-switch_ena_dis:before {
+    content: " "; position: absolute; top: 0; left: 40px;
+    border-style: solid; border-color: #999797 transparent transparent #999797; border-width: 13px 8px;
+    }
+    .onoffswitch-inactive_ena_dis .onoffswitch-switch_ena_dis:before {
+    content: " "; position: absolute; top: 0; right: 40px;
+    border-style: solid; border-color: transparent #82AB00 #82AB00 transparent; border-width: 13px 8px;
+    }
+    .onoffswitch-checkbox_ena_dis:checked + .onoffswitch-label_ena_dis .onoffswitch-inner_ena_dis {
+    margin-left: 0;
+    }

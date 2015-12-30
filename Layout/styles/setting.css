@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html
+{
+	height: 100%;
+	font-family: 'Segoe UI',Tahoma,Helvetica,Sans-Serif;
+	background:#e5e5e5;
+	//background:url(../images/background_stripes.gif);
+	
+}
+
+#main_cnt
+ {
+	 clear:both;
+	 float:left;	
+	 width:80%;
+	 margin:0 auto;
+	 margin-top:10%;	 
+	 margin-left:10%;
+   	 background:#eaeaea;
+	 min-height:3.75em;
+	//border:thin solid #D2D2D2;	 
+ }
+
+#main_cnt #setting_tag_bx
+{
+	width:99.7%;
+	min-height:1.875em;
+	border:thin solid #ccc;
+	background:#fff;
+}
+
+#setting_tag_bx span
+{
+	display:table;
+	font-size:1.5em;
+	padding:1%;
+	font-weight:800;
+	color:#82ab00;
+}
+
+#main_cnt #main_setting_type_box
+{
+	width:100%;
+	margin:0 auto;
+	//border:thin white solid;
+	min-height:10em;
+	margin-top:0.5%;
+}
+
+#main_setting_type_box .setting_type_bx
+{
+	float:left;
+	width:49.70%;
+	min-height:15em;
+	border:thin solid #ccc;
+	cursor:pointer;
+	transition:all 2s ease;
+	background:white;
+	margin-left:0.1px;
+}
+
+.setting_type_bx .setting_type_tag_bx
+{
+	width:90%;
+	height:3em;
+	//border:thin black solid;
+	margin-left:8%;
+	margin-top:3%;
+}
+
+#main_setting_type_box a:active
+{
+	border:thin black solid;
+}
+
+.setting_type_tag_bx span
+{
+	display:table;
+	font-size:1.5em;
+	padding:1%;
+	font-weight:500;
+	color:#82ab00;
+	
+}
+
+.setting_type_bx .setting_type_det_bx 
+{
+	width:80%;
+	height:5em;
+	//border:thin black solid;	
+	margin-left:8%;
+	margin-top:1%;
+}
+
+
+.setting_type_det_bx span
+{
+	display:table;
+	font-size:1.1em;
+	font-weight:500;
+	color:#333;
+	word-break:break-all;
+	
+}
+
+.setting_type_bx:hover
+{
+	-webkit-box-shadow: 0px 0px 30px #ccc;
+	-moz-box-shadow: 0px 0px 30px #ccc;
+	box-shadow: 0px 0px 30px #ccc;
+	transition:all 2s ease;
+}
+.setting_type_bx:hover .icon_box
+{
+	background:url(../images/Tagged_Icon_Dark_Grey1.png);
+}
+
+.clearfix
+{
+	clear:both;
+}
+
+.icon_box
+{
+	width:25px;
+	height:25px;
+	//border:thin black solid;
+	float:right;
+	margin-right:2%;
+	margin-top:2%;
+	background:url(../images/Tagged_Icon_Light_Grey.png);
+	
+}
+

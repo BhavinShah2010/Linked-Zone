@@ -1,0 +1,35 @@
+#main_calender_cont
+{
+	width:80%;
+	min-height:20em;
+	//border:thin black solid;
+	height:auto;
+	
+}
+
+#title
+{
+	width:90%;
+	height:3em;
+	border:thin #ccc solid;
+	margin:0 auto;
+}
+
+
+#title span
+{
+	color:#82ab00;
+	font-size:2em;
+	text-align:center;
+	padding:30%;
+	
+}
+
+#calender_cnt
+{
+	width:100%;
+	min-height:15em;
+	margin-top:1%;
+	//border:thin black solid;
+	height:auto;
+}

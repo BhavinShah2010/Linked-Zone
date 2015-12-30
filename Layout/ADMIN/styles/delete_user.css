@@ -1,0 +1,82 @@
+#main_container
+{
+	width:99%;
+	min-height:30em;
+	//margin-left:5%;
+	//margin:0 auto;
+	border:thin #ccc solid;
+	margin-top:1%;
+	border-bottom:none;
+	overflow:hidden;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+#main_container hr
+{
+	padding:0;
+	margin:0;
+	height:1px;
+	width:100%;
+	top:2%;
+}
+
+
+#title
+{
+	width:100%;
+	height:3em;
+	border:thin #ccc solid;
+}
+
+
+#title span
+{
+	display:table;
+	margin:0 auto;
+	color:#82ab00;
+	font-size:2em;
+	text-align:center;
+}
+
+#delete_box 
+{
+	width:99%;
+	height:3em;
+	//border:thin black solid;
+	//margin-left:5%;
+	border:thin #ccc solid;
+	border-top:none;
+}
+
+#delete_btn_box
+{
+	width:50%;
+	height:3em;
+	float:right;
+	border:none;
+
+}
+
+
+#delete_btn_box .delete_btn
+{
+	background:#82ab00;
+	width:7em;
+	height:3em;
+	border:none;
+	color:#FFFFFF;
+	font-size:0.8em;
+	padding:1%;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,175 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<script src="scripts/jquery.js"></script>
+<script src="scripts/setAll.js"></script>
+<script src="scripts/validation.js"></script>
+<!-- <script src="registration.js"></script>-->
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script>
+  $(document).ready(function() {
+  
+    $( "#datepicker" ).datepicker();
+  
+});
+  </script>
+
+<!--
+<script src="jquery-1.3.2.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#formContainer .nodeDet input[type='submit']").click(function(){
+    $("error").fadeOut()
+  });
+  $("#formContainer .nodeDet input[type='submit']").click(function(){
+    $("error").fadeIn();
+  });
+});
+
+</script>
+-->
+
+
+
+
+<link href="styles/registration.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Untitled Document</title>
+</head>
+
+<body>	<div id="logo"></div>
+  <div id="header">Linked Zone</div>
+  <div id="header_strip"  style="opacity:0.8;"></div>
+	<div id="boxPanel">
+		<!--<div class="box"  style=" background-color:#252B02"></div>
+		<div class="box"  style=" background-color:#4A5604"></div>
+		<div class="box"  style=" background-color:#5D6C05"></div>
+		<div class="box"  style=" background-color:#708206"></div>
+		<div class="box"  style=" background-color:#829707"></div>
+		<div class="box"  style=" background-color:#95AD08"></div>
+		<div class="box"  style=" background-color:#A7C209"></div>
+		<div class="box"> </div>                                   
+		<div class="box"  style=" background-color:#D6E86C"></div>        
+		<div class="box"  style=" background-color:#E3EF9D"></div>                -->
+    </div>	<!-- boxPanel -->
+  
+    <div id="mainContainer">
+    
+		<span>
+        	<div class="title">Sign Up</div>
+            <div class="subTitle">Be free to link , Join now.</div>
+        </span>
+        <div id="formContainer">
+                <form name="regForm"  onsubmit="return newvalidate ()"  action="registration_insert.php" method="post" >
+                
+                    <div class="node">
+					   <label>First Name</label>
+                       <input type="text" name="first_name" tabindex="1" onchange="validText(this)" onkeypress="validText(this)"/>
+                    </div>
+
+                    <div class="node">
+					   <label>Password</label>
+                       <input type="password" name="password" tabindex="2"  onchange="valid1Text(this)" onkeypress="valid1Text(this)"/>
+                    </div>
+                    
+                    <div class="node">
+					   <label>Last Name</label>
+                       <input type="text" name="last_name" tabindex="3" 
+                       onchange="valid7Text(this)"onkeypress="valid7Text(this)"    />
+                    </div>
+
+                    <div class="node">
+					   <label>Confirm Password</label>
+                       <input type="password" name="cPass" tabindex="4" onkeyup="ispCheck(document.regForm.password,document.regForm.cPass)"  
+ />
+ 
+<!-- 
+ or by default
+ 
+  <input type="password" name="cPass" tabindex="6" onchange="valid2Text(this)" onkeypress="valid2Text(this)" onfocus="valid2Text(this)"
+ /> -->
+ 
+                    </div>
+                    <div class="node">
+					   <label>Email Id</label>
+                       <input type="text" name="user_id" tabindex="5" onchange="valid3Text(this)"onkeypress="valid3Text(this)" />
+                    </div>
+                    <div class="node">
+					   <label>Gender</label>
+                     
+                        <select  name="gender" tabindex="8" tabindex="6" onchange="valid5Text(this)" onkeypress="valid5Text(this)" >
+                	
+                	<option value=" Select Your Gender " selected="selected">Select Your Gender
+                    </option>
+                    
+                    <option value="Male" >Male
+                    </option>
+                    <option value="Female"> Female
+                    </option>
+                </select>
+                     
+                     
+                     
+                    </div>
+
+                    <div class="node">
+					   <label>Roll Number</label>
+                       <input type="text" name="enrollment_no" tabindex="7" onchange="valid4Text(this)" onkeypress="valid4Text(this)" />
+                    </div>
+
+                  <div class="node" style="margin-bottom:3%;">
+					  <label>Birth Date</label>
+                       <input type="text" name="dob" id="datepicker"  tabindex="8" onchange="valid6Text(this)" onkeypress="valid6Text(this)" />
+                    </div> 
+					<div class="nodeDet" style="margin-left:0%; color:red;" >
+                    	<label style=" border: #D896A2 thin solid; padding:0.01%; visibility:hidden; background:#FFF"  id="error">Please Enter Proper Email Id</label>
+                    </div>
+					
+					<div class="nodeDet" style="margin-left:-1%; font-size:16px ; font-weight:bold; color: #D9F733;" >
+                    	<label> By click on  <B>Create Account</B> you are agreed with <a href="#" style="color: #D9F733">terms & condition</a>.</label>
+                    </div>
+                    <div class="nodeDet" style="clear:both;">
+						<input type="submit" value="Create Account"/>
+                    </div>
+                    
+                    
+                    
+                </form>
+        </div>
+			<!-- formContainer -->
+    </div>	 <!-- mainContainer -->
+      <!--  	<div id="bottomPanel">
+        	<div id="bottomInner">
+        	<div class="btContain">
+        		<div class="imgDet"></div>
+            </div>
+        	<div class="btContain">
+        		<div class="imgDet"></div>
+            </div>
+
+        	<div class="btContain">
+        		<div class="imgDet"></div>
+            </div>
+	        </div>
+	    </div>
+        <div id="bottom">
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>                        
+		</div>-->
+        <div id="Intro_Footer">
+               <div id="header_strip"  style="box-shadow:0px -1px 2px black;"></div>
+               <div id="footer">&copy; Copyright @Linked Zone</div>
+           </div> <!-- Intro_Footer Ends...-->
+</body>
+</html>

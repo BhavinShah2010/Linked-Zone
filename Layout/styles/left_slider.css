@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#side_panel
+{
+//	left:0;
+	height:100%;
+	width:50px;
+	position:absolute;	
+	background:white;//#454545;
+	overflow:hidden;
+	border: thin solid #CCC;
+}
+
+#side_panel hr
+{
+	width:100%;
+	margin-top:10px;
+}
+
+#side_panel .btn
+{
+	margin-top:15px;
+	position:relative;
+	 display:table;
+//	border:green thin solid;
+}
+.btn a
+ {
+	 text-decoration:none;
+ }
+.btn a .b_icon
+ {
+	 width:35px;
+	 height:35px;
+     float:left;	
+	 white-space:nowrap;	  
+	 margin-left:5px;
+	 cursor:pointer;
+	 background-size:cover;
+//	 border:thin solid black;
+	
+ }
+
+.btn a .b_icon:hover + .b_type , .btn a .b_type:hover
+ {
+	 color:#82ba00;//93ab08;
+ }
+
+.btn a .b_type
+{
+	position:absolute;
+	float:left;
+	color:black;
+	white-space:nowrap;
+	display:table;
+	left:50px;
+	margin-top:8px;
+	font-size:100%;	
+	cursor:pointer;
+	
+//	border:black thin solid;	
+
+}
+#side_panel .btn .iconbtnDet
+{
+	display:table;
+	text-align:center;
+	border:thin solid yellow;
+}
+
+button
+{
+	cursor:pointer;
+	border:none;
+	outline:none;
+	border-radius:100%;
+}
+
+

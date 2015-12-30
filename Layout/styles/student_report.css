@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+
+#title
+{
+	width:100%;
+	height:3em;
+	border:thin #ccc solid;
+	background:#FFF;
+}
+
+
+#title span
+{
+	display:table;
+	margin:0 auto;
+	color:#82ab00;
+	font-size:2em;
+	text-align:center;
+	margin-top:0.5%;
+}
+
+
+
+
+#report_container
+ {
+	 width:100%;
+	 height:30%;
+	 background:white;
+	 height:auto;
+ }
+ 
+ 
+ 
+ #delete_report_box 
+{
+	width:100%;
+	height:3em;
+	//border:thin black solid;
+	//margin-left:5%;
+	border:thin #ccc solid;
+	border-top:none;
+	background:#FFF;
+}
+
+#delete_report_btn_box
+{
+	width:50%;
+	height:3em;
+	float:right;
+	border:none;
+
+}
+
+
+#delete_report_btn_box .delete_report_btn
+{
+	background:#82ab00;
+	width:7em;
+	height:3em;
+	border:none;
+	color:#FFFFFF;
+	font-size:0.8em;
+	padding:1%;
+	float:right;
+}
+
+
+
+ 
+ 
+ 
+ 

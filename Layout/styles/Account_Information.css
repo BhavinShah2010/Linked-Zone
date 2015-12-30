@@ -1,0 +1,315 @@
+body,html
+{
+	height: 100%;
+	font-family: 'Segoe UI',Tahoma,Helvetica,Sans-Serif;
+	background:#eaeaea;
+}
+
+#Account_Info_box
+{
+	width:65%;
+	min-height:5em;
+	//border:thin black solid;
+	background:#fff;
+	margin-top:20px;
+	margin :0 auto;
+	clear:both;
+	float:left;
+	margin-left:17%;
+	margin-top:5%;	 
+}
+#Account_Info_box span
+{
+	display:table;
+	font-size:1.5em;
+	padding:0.3%;
+	font-weight:700;
+	color:#82ab00;
+	margin-left:1.5%;
+	margin-top:1%;
+}
+
+#main_cnt
+{
+	 clear:both;
+	 float:left;	
+	 width:65%;
+	 margin:0 auto;
+	 margin-left:17%;
+   	 background:#fff;
+	 min-height:25em;
+	 border:thin solid #ccc;
+	 margin-top:0.5%;	
+}
+
+#main_cnt #personal_info_bx
+{
+	width:100%;
+	min-height:12em;
+	//border:thin solid green;
+	background-color:transparent;
+}
+
+
+
+#personal_info_bx span
+{
+	display:table;
+	font-size:1.4em;
+	padding:1%;
+	font-weight:700;
+	color:#666;
+	margin-left:5px;
+}
+
+#on_off_btn_box
+{
+	min-width:10%;
+	height:2em;
+	//border:thin solid #666;
+	margin-top:1%;
+	float:left;
+	margin-left:5px;
+}
+
+.on_off_btn_box
+{
+	//width:88%;
+	height:80%;
+	float:left;
+	margin-left:10px;
+	border:none;
+	box-shadow:0px 0px 5px #eaeaea;
+}
+
+#user_info_box
+{
+	width:30%;
+	height:5em;
+	min-height:5em;
+	//border:thin black solid;
+	float:left;
+	margin-left:13%;
+	margin-top:1%;
+}
+
+#save_cancel_box
+{
+	//border:thin blue solid;
+	margin-top:11%;
+	margin-left:24%;
+}
+
+input[type='text']
+{
+	min-width:200px;
+	height:25px;
+	outline:none;
+	margin:3px;
+	color:#93ab08;
+	//border:thin black solid;
+	//border-radius:1px;
+}
+
+input[value]
+{
+	font-size:0.9em;
+	
+}
+
+
+::-webkit-input-value
+{ 
+	/* WebKit browsers */
+    color:#93ab08;
+}
+
+input[type='button']
+{
+	padding:1%;
+	background:#ccc;
+	cursor:pointer;
+	font-size:0.8em;
+	text-align:center;
+	font-weight:bolder;
+	//margin-top:2px;
+	outline:none;
+	border:none;
+}
+
+input[type='reset']
+{
+	padding:1%;
+	background:#ccc;
+	cursor:pointer;
+	font-size:0.8em;
+	text-align:center;
+	font-weight:bolder;
+	margin:0;
+	outline:none;
+	border:none;
+}
+
+
+#main_cnt #contact_info_box
+{
+	width:95%;
+	min-height:12em;
+	//border:thin solid green;
+	margin-top:1%;
+	background-color:transparent;
+	margin-left:5px;
+}
+
+#contact_info_box span
+{
+	display:table;
+	font-size:1.5em;
+	padding:1%;
+	font-weight:700;
+	color:#666;
+}
+
+
+#email_id_box
+{
+	min-height:4em;
+	//border:thin black solid;
+	margin-left:14%;
+}
+
+
+/*=========On_Of Button For TextBox*/
+   
+    .onoffswitch {
+    position: relative; width: 81px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+    .onoffswitch-checkbox {
+    display: none;
+    }
+    .onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 0px solid #999999; border-radius: 0px;
+    }
+    .onoffswitch-inner {
+    width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+    }
+    .onoffswitch-inner > div {
+    float: left; position: relative; width: 50%; height: 26px; padding: 0; line-height: 26px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    }
+    .onoffswitch-inner .onoffswitch-active {
+    padding-left: 10px;
+    background-color: #EBEBEB; color: #FFFFFF;
+    }
+    .onoffswitch-inner .onoffswitch-inactive {
+    padding-right: 10px;
+    background-color: #EBEBEB; color: #;
+    text-align: right;
+    }
+    .onoffswitch-switch {
+    width: 40px; margin: 0px; text-align: center;
+    border: 0px solid #999999;border-radius: 0px;
+    position: absolute; top: 0; bottom: 0;
+    }
+    .onoffswitch-active .onoffswitch-switch {
+    background: #999797; left: 0;
+    }
+    .onoffswitch-inactive .onoffswitch-switch {
+    background: #82AB00; right: 0;
+    }
+    .onoffswitch-active .onoffswitch-switch:before {
+    content: " "; position: absolute; top: 0; left: 40px;
+    border-style: solid; border-color: #999797 transparent transparent #999797; border-width: 13px 8px;
+    }
+    .onoffswitch-inactive .onoffswitch-switch:before {
+    content: " "; position: absolute; top: 0; right: 40px;
+    border-style: solid; border-color: transparent #82AB00 #82AB00 transparent; border-width: 13px 8px;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+    }
+	
+	
+	
+	/*====On_Off_Button For Email===*/
+	
+	
+	
+	
+	.onoffswitch_email {
+    position: relative; width: 81px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+    .onoffswitch-checkbox_email {
+    display: none;
+    }
+    .onoffswitch-label_email {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 0px solid #999999; border-radius: 0px;
+    }
+    .onoffswitch-inner_email {
+    width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+    }
+    .onoffswitch-inner_email > div {
+    float: left; position: relative; width: 50%; height: 26px; padding: 0; line-height: 26px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    }
+    .onoffswitch-inner_email .onoffswitch-active_email {
+    padding-left: 10px;
+    background-color: #EBEBEB; color: #FFFFFF;
+    }
+    .onoffswitch-inner_email .onoffswitch-inactive_email {
+    padding-right: 10px;
+    background-color: #EBEBEB; color: #;
+    text-align: right;
+    }
+    .onoffswitch-switch_email {
+    width: 40px; margin: 0px; text-align: center;
+    border: 0px solid #999999;border-radius: 0px;
+    position: absolute; top: 0; bottom: 0;
+    }
+    .onoffswitch-active_email .onoffswitch-switch_email {
+    background: #999797; left: 0;
+    }
+    .onoffswitch-inactive_email .onoffswitch-switch_email {
+    background: #82AB00; right: 0;
+    }
+    .onoffswitch-active_email .onoffswitch-switch_email:before {
+    content: " "; position: absolute; top: 0; left: 40px;
+    border-style: solid; border-color: #999797 transparent transparent #999797; border-width: 13px 8px;
+    }
+    .onoffswitch-inactive_email .onoffswitch-switch_email:before {
+    content: " "; position: absolute; top: 0; right: 40px;
+    border-style: solid; border-color: transparent #82AB00 #82AB00 transparent; border-width: 13px 8px;
+    }
+    .onoffswitch-checkbox_email:checked + .onoffswitch-label_email .onoffswitch-inner_email {
+    margin-left: 0;
+    }
+	
+	
+#on_off_btn_email
+{
+	min-width:10%;
+	height:2em;
+	//border:thin solid #666;
+	margin-top:2%;
+	float:left;
+}
+
+.on_off_btn_email
+{
+	//width:88%;
+	height:80%;
+	float:left;
+	margin-left:10px;
+	border:none;
+	box-shadow:0px 0px 5px #eaeaea;
+}

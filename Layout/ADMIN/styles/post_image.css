@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+html , body
+{
+	height: 100%;
+	background-color: #EAEAEA;
+	font-family: 'Segoe UI',Tahoma,Helvetica,Sans-Serif;
+}
+/*#mainOuter
+{
+	margin:0 auto;
+	width:100%;
+	height:100%;
+	min-width:1000px;
+	min-height:800px;
+	//position:relative;
+//	padding:1px;
+	border:thin solid red;
+}*/
+
+#mainContainer
+ {
+	 width:75%;
+	 min-width:600px;
+	 min-height:500px;
+	 height:100%;
+	 margin-left:5em;
+	 margin-top:2em;
+	// border:thin black solid;
+ }
+
+	 
+
+ 
+/*-----------user_activity-----------------*
+#admin_all_activity
+ {
+	 width:80%;
+	 height:100%;
+	 margin:0 auto;
+	 border:thin solid yellow;
+ }*/
+ 
+ 
+#admin_activity_cont
+ {
+	 width:80%;
+	 height:90%;
+	// border:thin #ccc solid;
+	// background:#FFFFFF;
+	 margin:0 auto;
+	 margin-top:1em;
+ }
+ 
+ 
+#admin_activity_cont .new_post
+ {
+	 width:100%;
+	 height:15em;
+	// overflow:hidden;
+	 border:thin solid #ccc;
+	 background:#FFFFFF;
+ }
+	  
+
+ .user_pic
+ { 
+ 	width:50px;
+	height:50px;
+	float:left;
+	margin-left:1em;
+	margin-top:1em;
+	border:thin solid #c6c6c6;
+ }
+ 
+#post_type
+{
+	width:80%;
+	height:50%;
+	border:thin #ccc solid;
+	float:left;
+	margin-left:1em;
+	margin-top:1em;
+}
+
+#post_type form
+{
+	width::100%;
+	height:100%;
+}
+#post_type form textarea
+ {
+	width:100%;
+	height:100%;
+	outline:none;
+	font-size:1.3em;
+	-webkit-box-sizing: border-box;  Safari/Chrome, other WebKit 
+    -moz-box-sizing: border-box;     Firefox, other Gecko 
+    box-sizing: border-box;
+	resize:none;  
+	border:none;	 
+ }
+ 
+ 
+#post_type #post_cancel_btns
+ {
+	min-height:30px;
+	margin-top:1%;
+//	margin-left:16%;
+//    border:black thin solid;
+
+ }
+
+#post_type #sel_opt
+ {
+
+	 min-height:2em;//40px;
+	 margin-top:1%;
+	 clear:both;
+	 //border:thin solid #000;
+ }
+#sel_opt .opt_btn
+ {
+	 width:2em;
+	 height:2em;
+//	 margin-right:0.5em;
+	 float:left;
+	 background-image:url(../../images/icons/post_text_icon.png);
+//	 background-size:cover;
+//	 border:thin solid black; 
+ } 
+#sel_opt .opt_btn:hover
+ {
+	 cursor:pointer;
+ } 
+#post_cancel_btns input[type='button'], [type='reset'], [type='submit']
+ {
+	 position:relative;
+	 margin-right:1%;
+	 padding:1%;
+	 font-size:1em;
+	 border:none;
+	 float:right;
+	 color:white;
+	 background:#82ba00;
+	 font-weight:100;
+	 cursor:pointer;
+ }
+
+/*.update_posts
+ {
+	 width:80%;
+	 height:20%;
+	 margin:0 auto;
+	 margin-top:2%;
+	 background:white;
+	 border:thin solid #CCC;
+ }
+
+ 
+
+
+
+
+/*--------------Side Pannel---------------
+
+*/
+
+

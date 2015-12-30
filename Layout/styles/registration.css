@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: "segoe uI";
+	background-image:url(../images/iStock_000016799519Large_mini%20-%20Copy.jpg);//(../images/Bing/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+input
+{
+	font-family: "segoe uI";
+}
+#logo
+ {
+   	margin-left:5%;
+	//border:black thin solid;
+	background:url(../../Layout_PHP/Layout/images/finl_logo%20copy%20copy.jpg);
+ }
+
+#mainContainer
+ {
+	height:72%;
+	width:50%;
+	margin: 0 auto;
+	margin-top:5%;
+	margin-bottom:5%;
+	border: thick solid rgba(186,216,10,1);
+//	border-radius: 10px 10px 10px 10px;
+	background: rgba(0,0,0,0.5);
+
+ }
+ 
+#mainContainer span
+ {
+	color: #bad80a;
+	padding: 1px;
+	display: table;
+	margin-left: 1%;
+//	border:thin solid #bad80a;
+ }
+ 
+#mainContainer span .title
+ {
+	 font-size:32px;
+	 font-weight:600;
+ }
+#mainContainer span .subTitle
+ {
+	font-size: 20px;
+	font-weight: 500;
+ }
+#boxPanel
+ {
+	margin:0 auto;
+	margin-top:3%;	 		 
+	position:relative;
+//    border:yellow thin solid;
+ }
+ 
+.box
+ {
+	 width:10%;
+	 height:100%;
+	 float:left;
+	 background:#bad80a;
+ }
+#formContainer
+ {
+	 min-width:700px;
+	 min-height:400px;
+	 margin: 0 auto;
+//	 border:blue thin solid;
+// 	 background:rgba(0 ,0 ,0 0.7);
+ }
+
+#formContainer .node
+ {
+	 margin-top:1%;
+	 margin-left:7%;
+	 margin-bottom:1.5%;
+	 float:left;
+//	 border:blue thin solid;
+ }
+ 
+#formContainer .err_node
+ {
+	 clear:both;
+	 margin:0 auto;
+//	 border:blue thin solid;
+ } 
+
+.err_node label
+{
+	color:red;
+ 	display: table;
+	margin:0 auto;
+	font-size: 20px;
+	font-weight: 600;
+	visibility:hidden;
+}
+ 
+#formContainer .nodeDet
+ {
+	margin : 0 auto;
+	margin-top:1%;
+	color: #97B009;
+	text-align:center;
+//  border:purple thin solid;
+
+ } 
+#formContainer .node label
+ {
+	display: table;
+	margin-left:5%;
+	font-size: 20px;
+	color:white;// #D9F733;
+	font-weight: normal;
+ }
+#formContainer .node input
+ {
+	
+	color:#809506;
+	padding: 1%;
+	outline: none;
+	font-size: 20px;
+	margin-top: 3%;
+	margin-left: 5%;
+	background-color:white;
+	font-family:"segoe uI";
+	opacity:0.7;	
+	border:thin solid black;
+//	border-radius: 5px 5px 5px 5px;
+ }
+ 
+#formContainer .node input[type='text']:focus  
+{
+	opacity:1;
+	background:white;
+}
+
+#formContainer .node input[type='password']:focus  
+{
+	opacity:1;
+}
+ 
+
+#formContainer .nodeDet input[type='button']
+/*#formContainer .nodeDet input[type='submit']*/
+ {
+	width: 60%;
+	height: 50%;
+	font-size: 100%;
+	border: none;
+	margin-left: 15%;
+	display: table;
+	padding: 1%;
+	color:black;
+	cursor: pointer;
+//	border-radius:3px;
+	background:#bad80a;
+ }
+ 
+#bottomPanel 
+ {
+	 margin:0 auto;
+	 margin-top:3%;
+//	 border:black thin solid;
+ }
+#bottomPanel #bottomInner
+ {
+	 margin:0 auto;
+	 width:90%;
+	 height:90%;
+	 margin-left:12%;
+ }
+#bottomPanel .btContain
+ {
+	 width:25%;
+	 height:80%;
+	 margin:1.5%;
+	 float:left;
+	 background:white;
+ }
+ 
+ 
+#bottomPanel .btContain .imgDet
+ {
+	  width:50%;
+	  height:95%;
+	  background:url(chat1.jpg);
+	  background-size:cover;
+	  //border:red thin solid;
+ }
+ 
+#bottom
+ {
+	 margin:0 auto;
+	 text-align:center;
+	 border:black thin solid;
+	 margin-left:12%;	 
+ }
+#bottom a
+{
+	color:#A7C209;
+	float:left;
+	margin:1%;
+	text-decoration:none;
+}
+
+
+
+/*
+.regForm-control:focus {
+    border-color:#1ABC9C;
+    box-shadow:none;
+}
+
+
+.regForm-control:focus, .regForm-control:focus + span 
+{
+    border-color:#1ABC9C;
+    box-shadow:none;
+}
+*/
+
+.textBox_off{
+border-top: 1px solid #666666;
+border-bottom: 1px solid #666666;
+border-left: 1px solid #666666;
+border-right: 1px solid #666666;
+background-color:#FFFFF0;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 9px;
+color: #004678;
+text-decoration: none;
+}
+
+.textBox_over{
+border-top: 1px solid #FF0000;
+border-bottom: 1px solid #FF0000;
+border-left: 1px solid #FF0000;
+border-right: 1px solid #FF0000;
+background-color:#FF0000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 9px;
+color: #004678;
+text-decoration: none;
+}
+
+
+#formContainer .node select[name = 'gender']
+{
+	float:left;
+	width:128%;
+	color:#809506;
+	padding: 1%;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	margin-top: 3%;
+	margin-left: 5%;
+	background-color:white;
+	font-family:"segoe uI";
+	opacity:0.7;	
+//	border-radius: 5px 5px 5px 5px;
+}
+#formContainer .node select[name = 'gender']:focus
+{
+	opacity:1;
+}
+
+
+#header
+{
+	min-width:900px;
+	height:105px;
+	overflow:hidden;
+	background:#000;//a8a8a8
+}
+
+#header_strip
+{
+	min-height:10px;
+	background:#bad80a;
+	box-shadow:0px 1px 5px black;
+}
+
+#header span
+{
+	display:inline-table;
+	float:right;
+	margin-right:5%;
+	color:#bad80a;
+	font-size:20px;
+}
+
+#logo
+{
+	color:#bad80a;//#ff3300;
+	text-align:center;
+	padding:5px;
+	font-size:230%;
+	font-weight:500;
+//	margin-top:1%;
+	//border:black thin solid;	
+}
+
+
+#Intro_Footer
+{
+	// position:fixed;
+	bottom: 0px;
+	color: white;
+	width: 100%;
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	margin-top: 3%;
+}
+#footer
+{
+	height: 7%;
+	//background:rgba(0,0,0,0.7);	
+	bottom: 0px;
+	color: #bad80a;
+	font-size: 20px;
+	text-align: center;
+	line-height: 2.5;
+	// margin-top: 3%;
+}
